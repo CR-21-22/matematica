@@ -8,7 +8,7 @@
   </script>
 ```
 * As expressões em Latex devem estar entre etiquetas `$$`
-* Veja em baixo como fica renderizado o exemplo deste repo.
 * Veja mais informação sobre [Latex/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics) assim como [simbolos em Latex](https://www.caam.rice.edu/~heinken/latex/symbols.pdf).
+* Veja em baixo como fica renderizado o exemplo deste repositório.
 
-<img src="https://github.com/CR-21-22/matematica/blob/main/index.png" width="100" >
+<img src="https://github.com/CR-21-22/matematica/blob/main/index.png" width="400" >
