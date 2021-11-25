@@ -9,5 +9,6 @@
 ```
 * As expressões em Latex devem estar entre etiquetas `$$`
 * Veja o exemplo em [index.html](https://github.com/CR-21-22/matematica/blob/main/matematica/templates/calculadora/index.html) que renderizado fica como em baixo.
+* Veja mais informação sobre [Latex/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics) assim como [simbolos em Latex](https://www.caam.rice.edu/~heinken/latex/symbols.pdf).
 
 ![index](index.png)
