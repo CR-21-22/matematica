@@ -1,7 +1,7 @@
 # Renderizar expressões matemáticas com MathJax
 
 * É possível criar expressões matemáticas numa página HTML renderizada em Django, utilizando LateX.
-* deve-se importar MathJax, no script:
+* deve-se importar MathJax, inserindo o script em baixo no head da página com expressões matemáticas, ou colocando num ficheiro à parte:
 ```HTML
 	<script type="text/x-mathjax-config">
       MathJax.Hub.Config({
