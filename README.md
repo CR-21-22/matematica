@@ -31,6 +31,8 @@ Veja em baixo como fica renderizado o exemplo deste repositório.
 
 <img src="https://github.com/CR-21-22/matematica/blob/main/index.png" width="400" >
 
+[Expressões Matemáticas.pdf](https://github.com/CR-21-22/matematica/files/9980967/Expressoes.Matematicas.pdf)
+
 
 ### Expressões no meio do texto
 * As expressões em Latex que queremos que apareçam in-line (no meio do texto) devem estar entre etiquetas `$`. 
