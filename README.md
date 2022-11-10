@@ -4,7 +4,9 @@
 
 ![image](https://user-images.githubusercontent.com/42048382/201103319-ec02c66d-0f97-43fc-9221-9607457743e4.png)
 
-* deve-se importar MathJax, inserindo o script no head da página com expressões matemáticas:
+* [Veja o projeto neste repositório](https://github.com/CR-21-22/matematica/files/9981082/Expressoes.Matematicas.pdf), descarregue-o e corra-o para ver como se faz.
+
+* deve-se importar MathJax, inserindo o script em baixo no head da página com expressões matemáticas:
 ```HTML
 	<script type="text/x-mathjax-config">
       MathJax.Hub.Config({
@@ -28,8 +30,6 @@
 	</script>
 	<script src="https://cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 ```
-
-* [o projeto neste repositório](https://github.com/CR-21-22/matematica/files/9981082/Expressoes.Matematicas.pdf), descarregue-o e corra-o para ver como se faz.
 
 
 ## Mais informação
