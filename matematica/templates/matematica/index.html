@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Expressões Matemáticas</title>
+    <style>
+        .exemplo {
+            background-color: lightblue;
+            padding: 3ch;
+            border: 1px solid black;
+            margin: 3ch;
+            border-radius: 3ch;
+        }
+    </style>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            showProcessingMessages: false, //Close js loading process information
+            messageStyle: "none", //Do not display information
+            extensions: ["tex2jax.js"],
+            jax: ["input/TeX", "output/HTML-CSS"],
+            tex2jax: {
+                inlineMath:  [ ["$", "$"] ], //In-line formula selection$
+                displayMath: [ ["$$","$$"] ], //The formula selection in the paragraph$$
+                skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code','a'], //Avoid certain tags
+                ignoreClass:"comment-content", //Avoid tags containing the Class
+                processClass: "mathjax-latex",
+            },
+            "HTML-CSS": {
+                availableFonts: ["STIX","TeX"], //Optional font
+                showMathMenu: false //Close the right-click menu display
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub])
+    </script>
+    <script src="https://cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+
+<body>
+
+    <h1>Expressões Matemáticas</h1>
+    <p>Sempre que se escrevem expressões matemáticas, deve usar um formato de fonte adequado. E deve sempre definir os
+        símbolos depois da expressão. Em baixo apresenta-se um exemplo.</p>
+
+
+    <div class="exemplo">
+
+        <h2>Capacidade de Shannon</h2>
+        <p>A capacidade de Shannon, $C$, é dada pela seguinte expressão:</p>
+
+        <p>$$C_{[\text{Mbps}]} = B_{[\text{MHzs}]} \cdot \text{log}_2 \left( 1 + snr \right) $$</p>
+        <p>onde:</p>
+        <ul>
+            <li>$B_{[\text{MHz}]}$: largura de banda do canal</li>
+            <li>$snr$: <i>Signal-to-Noise-Ratio</i>, relação sinal ruído expressa em unidades lineares (se necessário,
+                deve ser convertido de dB para linear).
+            </li>
+        </ul>
+    </div>
+
+    <p>Tenha atenção à convenção na engenharia que, variáveis em unidades lineares usa-se uma letra minúscula, enquanto que a mesma variável em unidades logarítimicas, em maiúscula. Por exemplo, a potência pode ser expressa em W, $p_{[W]}$, ou em dBW, $P_{[dBW]}$.</p>
+
+    <h1>Como fazer?</h1>
+
+
+    <p>Podem-se criar expressões matemáticas no HTML usando o formato LateX e recorrendo ao MathJax, um script que
+        deverá adicionar à página HTML. Veja-o inspecionando esta página com o comando Ctrl+U</p>
+
+    <h3>Expressão matemática inline</h3>
+    <p>Para criar uma expressão matemática inline (dentro de uma linha), usa-se um símbolo de dollar. </p>
+    <p>Por exemplo,
+    R_{[bps]}$\$$</code> resulta em $R_{[bps]}$.</p>
+
+
+    <h3>Expressão matemática numa linha isolada</h3>
+
+    <p>Para criar uma equação numa linha isolada, usam-se simbolos de dollar duplos. </p>
+    <p>Por exemplo, <code>$$ P_{[\text{dBW}]} = 10 \cdot \text{log}_{10}(p_{[\text{W}]}) $$</code> resulta em </p>
+        $$ P_{[\text{dBW}]} = 10 \cdot \text{log}_{10}(p_{[\text{W}]}) $$
+            
+    <p>Outro exemplo, <code>$$ p_{[\text{W}]} =10^ \frac {P_{[\text{dBW}]}} {10} $$</code> resulta em </p> 
+        $$ p_{[\text{W}]} =10^ \frac {P_{[\text{dBW}]}} {10} $$
+        
+
+</body>
+
+</html>
