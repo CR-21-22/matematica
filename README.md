@@ -29,16 +29,8 @@
 	<script src="https://cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 ```
 
-* [Veja](https://github.com/CR-21-22/matematica/files/9980967/Expressoes.Matematicas.pdf) o projeto neste repositório, descarregando-o e correndo-o.
+* [o projeto neste repositório](https://github.com/CR-21-22/matematica/files/9981082/Expressoes.Matematicas.pdf), descarregue-o e corra-o para ver como se faz.
 
-
-### Expressões no meio do texto
-* As expressões em Latex que queremos que apareçam in-line (no meio do texto) devem estar entre etiquetas `$`. 
-* Por exemplo  $R_{[bps]}$ está em formato matemático em linha
-
-### Expressões isoladas num parágrafo
-* As expressões em Latex que queremos que apareçam isoladas numa linha devem estar entre etiquetas `$$`. 
-* Por exemplo a expressão seguinte vai ficar numa linha isolada: $$ P_{[\text{dBW}]} = P_{[\text{dBm}]} + 30 $$
 
 ## Mais informação
 * consulte o exemplo no [codesandbox](https://codesandbox.io/s/mathjax-jw4py?file=/index.html:241-1313)
